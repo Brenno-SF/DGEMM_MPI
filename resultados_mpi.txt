@@ -1,0 +1,86 @@
+
+Resultados DGEMM com MPI
+
+512 x 512 — 2 processos
+Execução 1: Seq=0.057657 | MPI=0.052687 | Speedup=1.094343 | Eficiência=0.547171
+Execução 2: Seq=0.046494 | MPI=0.040347 | Speedup=1.152351 | Eficiência=0.576176
+Execução 3: Seq=0.046468 | MPI=0.036988 | Speedup=1.256288 | Eficiência=0.628144
+Execução 4: Seq=0.046142 | MPI=0.039150 | Speedup=1.178612 | Eficiência=0.589306
+Execução 5: Seq=0.049611 | MPI=0.040376 | Speedup=1.228743 | Eficiência=0.614371
+
+512 x 512 — 4 processos
+Execução 1: Seq=0.046432 | MPI=0.037562 | Speedup=1.236142 | Eficiência=0.309036
+Execução 2: Seq=0.047230 | MPI=0.041889 | Speedup=1.127500 | Eficiência=0.281875
+Execução 3: Seq=0.057167 | MPI=0.035562 | Speedup=1.607521 | Eficiência=0.401880
+Execução 4: Seq=0.045687 | MPI=0.027145 | Speedup=1.683085 | Eficiência=0.420771
+Execução 5: Seq=0.046837 | MPI=0.030884 | Speedup=1.516540 | Eficiência=0.379135
+
+512 x 512 — 8 processos
+Execução 1: Seq=0.049679 | MPI=0.042259 | Speedup=1.175588 | Eficiência=0.146948
+Execução 2: Seq=0.057739 | MPI=0.030898 | Speedup=1.868682 | Eficiência=0.233585
+Execução 3: Seq=0.049639 | MPI=0.037835 | Speedup=1.311995 | Eficiência=0.163999
+Execução 4: Seq=0.048122 | MPI=0.024951 | Speedup=1.928617 | Eficiência=0.241077
+Execução 5: Seq=0.048014 | MPI=0.027182 | Speedup=1.766362 | Eficiência=0.220795
+
+1024 x 1024 — 2 processos
+Execução 1: Seq=0.388318 | MPI=0.248621 | Speedup=1.561888 | Eficiência=0.780944
+Execução 2: Seq=0.378184 | MPI=0.257516 | Speedup=1.468583 | Eficiência=0.734291
+Execução 3: Seq=0.390733 | MPI=0.315450 | Speedup=1.238655 | Eficiência=0.619327
+Execução 4: Seq=0.388194 | MPI=0.252332 | Speedup=1.538425 | Eficiência=0.769213
+Execução 5: Seq=0.374684 | MPI=0.256542 | Speedup=1.460514 | Eficiência=0.730257
+
+1024 x 1024 — 4 processos
+Execução 1: Seq=0.394830 | MPI=0.197479 | Speedup=1.999354 | Eficiência=0.499839
+Execução 2: Seq=0.377952 | MPI=0.168827 | Speedup=2.238698 | Eficiência=0.559675
+Execução 3: Seq=0.370221 | MPI=0.194910 | Speedup=1.899443 | Eficiência=0.474861
+Execução 4: Seq=0.526790 | MPI=0.162014 | Speedup=3.251513 | Eficiência=0.812878
+Execução 5: Seq=0.389597 | MPI=0.194261 | Speedup=2.005539 | Eficiência=0.501385
+
+1024 x 1024 — 8 processos
+Execução 1: Seq=0.386285 | MPI=0.171895 | Speedup=2.247209 | Eficiência=0.280901
+Execução 2: Seq=0.403697 | MPI=0.138571 | Speedup=2.913293 | Eficiência=0.364162
+Execução 3: Seq=0.408299 | MPI=0.181265 | Speedup=2.252489 | Eficiência=0.281561
+Execução 4: Seq=0.386326 | MPI=0.153736 | Speedup=2.512922 | Eficiência=0.314115
+Execução 5: Seq=0.398751 | MPI=0.170041 | Speedup=2.345032 | Eficiência=0.293129
+
+2048 x 2048 — 2 processos
+Execução 1: Seq=2.727622 | MPI=1.676602 | Speedup=1.626875 | Eficiência=0.813437
+Execução 2: Seq=2.749948 | MPI=1.591264 | Speedup=1.728153 | Eficiência=0.864077
+Execução 3: Seq=2.748711 | MPI=1.623842 | Speedup=1.692721 | Eficiência=0.846360
+Execução 4: Seq=3.142145 | MPI=1.892012 | Speedup=1.660742 | Eficiência=0.830371
+Execução 5: Seq=3.178460 | MPI=1.823797 | Speedup=1.742771 | Eficiência=0.871385
+
+2048 x 2048 — 4 processos
+Execução 1: Seq=4.144226 | MPI=1.732902 | Speedup=2.391495 | Eficiência=0.597874
+Execução 2: Seq=3.539074 | MPI=1.494312 | Speedup=2.368363 | Eficiência=0.592091
+Execução 3: Seq=3.008783 | MPI=1.291797 | Speedup=2.329146 | Eficiência=0.582286
+Execução 4: Seq=3.274404 | MPI=1.348264 | Speedup=2.428608 | Eficiência=0.607152
+Execução 5: Seq=4.074685 | MPI=1.631868 | Speedup=2.496945 | Eficiência=0.624236
+
+2048 x 2048 — 8 processos
+Execução 1: Seq=3.387434 | MPI=1.125648 | Speedup=3.009319 | Eficiência=0.376165
+Execução 2: Seq=3.043048 | MPI=1.013498 | Speedup=3.002519 | Eficiência=0.375315
+Execução 3: Seq=3.040508 | MPI=0.997167 | Speedup=3.049145 | Eficiência=0.381143
+Execução 4: Seq=3.085828 | MPI=0.938379 | Speedup=3.288467 | Eficiência=0.411058
+Execução 5: Seq=3.389728 | MPI=0.953718 | Speedup=3.554226 | Eficiência=0.444278
+
+4096 x 4096 — 2 processos
+Execução 1: Seq=26.726664 | MPI=16.907449 | Speedup=1.580763 | Eficiência=0.790381
+Execução 2: Seq=23.339274 | MPI=13.971721 | Speedup=1.670465 | Eficiência=0.835233
+Execução 3: Seq=23.802236 | MPI=13.999737 | Speedup=1.700192 | Eficiência=0.850096
+Execução 4: Seq=36.257411 | MPI=13.880908 | Speedup=2.612034 | Eficiência=1.306017
+Execução 5: Seq=23.178460 | MPI=11.823797 | Speedup=1.961059 | Eficiência=0.980529
+
+4096 x 4096 — 4 processos
+Execução 1: Seq=24.914616 | MPI=9.228460 | Speedup=2.699759 | Eficiência=0.674940
+Execução 2: Seq=25.625613 | MPI=10.079471 | Speedup=2.542357 | Eficiência=0.635589
+Execução 3: Seq=23.816357 | MPI=8.808969 | Speedup=2.703649 | Eficiência=0.675912
+Execução 4: Seq=24.342569 | MPI=9.517040 | Speedup=2.557788 | Eficiência=0.639447
+Execução 5: Seq=29.995275 | MPI=10.303489 | Speedup=2.911177 | Eficiência=0.727794
+
+4096 x 4096 — 8 processos
+Execução 1: Seq=31.068839 | MPI=8.229819 | Speedup=3.775155 | Eficiência=0.471894
+Execução 2: Seq=28.329906 | MPI=11.655604 | Speedup=2.430582 | Eficiência=0.303823
+Execução 3: Seq=27.854427 | MPI=10.074477 | Speedup=2.764851 | Eficiência=0.345606
+Execução 4: Seq=28.000000 | MPI=9.300000 | Speedup=3.010753 | Eficiência=0.376344 
+Execução 5: Seq=29.000000 | MPI=9.000000 | Speedup=3.222222 | Eficiência=0.402778
